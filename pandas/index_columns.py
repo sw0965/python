@@ -13,7 +13,6 @@ df2 = df2.reindex(["D팀", "C팀", "B팀", "A팀", "분류"], axis=1).reset_inde
 
 df2["분류"] = df1["분류"]
 
-# index 설정
 '''
 index 설정 set_index
 index 리셋 reset_index
@@ -22,5 +21,3 @@ index의 이름을 바꾸거나 직접입력 혹은 rename
 index를 정렬 sort_index
 '''
 
-
-###
